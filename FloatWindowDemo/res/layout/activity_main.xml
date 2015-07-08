@@ -1,0 +1,59 @@
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    	<LinearLayout
+    	    android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:gravity="center"
+		    android:orientation="vertical">
+		
+    	    <Button
+		        android:id="@+id/regTooltip"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="50dp"
+		        android:text="注册Activity" 
+		        android:visibility="gone"/>
+    	    		    
+		    <Button
+		        android:id="@+id/recMessage"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="50dp"
+		        android:text="打开悬浮窗口(接收到消息)"/>
+		    
+		    <Button
+		        android:id="@+id/closeTooltip"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="50dp"
+		        android:text="关闭悬浮窗口"/>
+		    
+		    <RadioGroup  
+		        android:id="@+id/radiogroup"  
+		        android:layout_width="wrap_content"  
+		        android:layout_height="wrap_content"  
+		        android:layout_marginTop="50dp"
+		        android:orientation="vertical">  
+		        <RadioButton  
+		            android:id="@+id/radiobutton1"  
+		            android:layout_width="wrap_content"  
+		            android:layout_height="wrap_content"  
+		            android:checked="true"  
+		            android:text="默认"  />  
+		        <RadioButton  
+		            android:id="@+id/radiobutton2"  
+		            android:layout_width="wrap_content"  
+		            android:layout_height="wrap_content"  
+		            android:text="SurfaceView 无头像阴影"  />  
+		        <RadioButton  
+		            android:id="@+id/radiobutton3"  
+		            android:layout_width="wrap_content"  
+		            android:layout_height="wrap_content"  
+		            android:text="SurfaceView 带头像阴影" />  
+	    </RadioGroup>  
+		</LinearLayout>
+</ScrollView>

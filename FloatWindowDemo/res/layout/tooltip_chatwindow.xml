@@ -1,0 +1,31 @@
+<com.open.tooltip.ExRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+		  
+		  <com.open.tooltip.HorImageListView
+		  	android:id="@+id/horListview"
+		  	android:layout_width="fill_parent"
+		  	android:layout_height="wrap_content"/>
+    	 
+		  <LinearLayout 
+		      android:id="@+id/content"
+		      android:layout_width="match_parent"
+    		  android:layout_height="wrap_content"
+    		  android:layout_below="@id/horListview"
+    		  android:background="@drawable/tooltip_msg_bg"
+    		  android:layout_marginLeft="7dp"
+    		  android:layout_marginRight="7dp"
+    		  android:layout_marginTop="7dp"
+    		  android:paddingLeft="7dp">
+		      		<include layout="@layout/tooltip_chatwindow_rec_funbar" android:id="@+id/msgAreaLayout" android:layout_centerInParent="true"/>
+		  </LinearLayout>
+
+		  <com.open.tooltip.AudioRecordMicView 
+		      android:id="@+id/mic"
+		      android:layout_width="wrap_content"
+    		  android:layout_height="wrap_content"
+    		  android:visibility="gone"
+    		  android:layout_centerInParent="true"/>
+</com.open.tooltip.ExRelativeLayout>

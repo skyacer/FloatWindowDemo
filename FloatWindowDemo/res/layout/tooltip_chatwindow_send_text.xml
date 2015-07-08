@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   	      android:layout_width="match_parent"
+   	      android:layout_height="wrap_content"
+   	      android:minHeight="45dp"
+   	      android:gravity="center_vertical"
+   	      android:orientation="horizontal">
+    
+    		  <RelativeLayout 
+    		      android:layout_width="0dp"
+	    	      android:layout_height="fill_parent"
+	    	      android:layout_weight="1.0">
+    		          <com.boyaa.link.ui.emoji.EmojiEditView
+		    	          android:id="@+id/inputEditText"
+			    	      android:layout_width="match_parent"
+			    	      android:layout_height="match_parent"
+			    	      android:paddingRight="35dp"
+			    	      android:textColor="@android:color/black"
+			    	      android:background="@drawable/tooltip_input_bg"/>
+    		          <ImageView
+		    	          android:id="@+id/emBtn"
+		    	          android:layout_width="wrap_content"
+			    	      android:layout_height="wrap_content"
+			    	      android:layout_alignParentRight="true"
+			    	      android:paddingLeft="15dp"
+			    	      android:paddingRight="15dp"
+			    	      android:layout_centerVertical="true"
+			    	      android:src="@drawable/tooltip_emot"/>
+    		  </RelativeLayout>
+
+    		  <Button
+    		      android:id="@+id/sendBtn"
+    		      android:layout_width="50dp"
+    		      android:layout_height="match_parent"
+    		      android:layout_marginLeft="5dp"
+    		      android:background="@drawable/tooltip_send_selector"
+    		      android:text="发送"
+    		      android:textColor="@color/tooltip_sendcolor_selector"
+    		      android:textSize="16sp" />
+
+    	     <ImageView 
+	    	          android:layout_width="wrap_content"
+		    	      android:layout_height="wrap_content"
+		    	      android:layout_marginLeft="5dp"
+		    	      android:layout_marginRight="5dp"
+		    	      android:src="@drawable/tooltip_breakline"/>
+	    	 <ImageButton 
+	    	          android:id="@+id/audioBtn"
+	    	          android:layout_width="wrap_content"
+		    	      android:layout_height="wrap_content"
+		    	      android:layout_marginRight="5dp"
+		    	      android:background="@drawable/tooltip_audio_selector"/>
+</LinearLayout>
