@@ -20,3 +20,4 @@ mParams.height=100;//指定悬浮窗的高度。
 mParams.gravity=Gravity.LEFT|Gravity.TOP; //悬浮窗的对齐方式
 mParams.x=0;  //悬浮窗的横坐标
 mParams.y=0;//悬浮窗的纵坐标
+![](http://www.baidu.com/img/bdlogo.gif) 
