@@ -1,7 +1,11 @@
 # FloatWindowDemo
 华丽的悬浮球Demo，附聊天，语音识别（在完善中），消息提醒等功能。
+先来看几张图片
+![](http://skyace-skyace.stor.sinaapp.com/20150708_floatwindow1.png) 
+![](http://skyace-skyace.stor.sinaapp.com/20150708_floatwindow2.png) 
+![](http://skyace-skyace.stor.sinaapp.com/20150708_floatwindow3.png) 
 
-实现知识点：
+实现要点：
 1.     WindowManager
 
 addView(View view, LayoutParams params) ，添加一个悬浮窗
@@ -20,4 +24,3 @@ mParams.height=100;//指定悬浮窗的高度。
 mParams.gravity=Gravity.LEFT|Gravity.TOP; //悬浮窗的对齐方式
 mParams.x=0;  //悬浮窗的横坐标
 mParams.y=0;//悬浮窗的纵坐标
-![](http://www.baidu.com/img/bdlogo.gif) 
