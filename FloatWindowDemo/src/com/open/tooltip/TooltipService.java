@@ -18,7 +18,7 @@ import android.util.Log;
 
 /**
  * 控制悬浮框
- * @author DexYang
+ * @author skyace
  *
  */
 public class TooltipService extends Service {

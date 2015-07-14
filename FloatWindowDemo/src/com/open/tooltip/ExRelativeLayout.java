@@ -6,7 +6,7 @@ import android.widget.RelativeLayout;
 
 /**
  * 监听键盘的弹起的RelativeLayout
- * @author Administrator
+ * @author skyace
  *
  */
 public class ExRelativeLayout extends RelativeLayout {

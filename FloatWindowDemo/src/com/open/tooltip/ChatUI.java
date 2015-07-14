@@ -28,7 +28,7 @@ import com.open.tooltip.TooltipMgr.DrawMessage;
 
 /**
  * 聊天对话框
- * @author DexYang
+ * @author skyace
  *
  */
 public class ChatUI extends ExRelativeLayout {
@@ -84,6 +84,8 @@ public class ChatUI extends ExRelativeLayout {
 				}
 			}
 		});
+		
+		//聊天输入框的监听
 		this.setOnTouchListener(new OnTouchListener() {
 			@Override
 			public boolean onTouch(View v, MotionEvent event) {

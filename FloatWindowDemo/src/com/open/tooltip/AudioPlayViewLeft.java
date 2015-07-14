@@ -13,7 +13,7 @@ import android.view.View;
 
 /**
  * 播放声音，声音从右往左边走
- * @author DexYang
+ * @author skyace
  *
  */
 public class AudioPlayViewLeft extends View {

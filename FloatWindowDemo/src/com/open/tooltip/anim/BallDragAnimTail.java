@@ -18,7 +18,6 @@ public class BallDragAnimTail extends BallDragAnim {
 	private Bitmap shadowBitmap[];
 	private Rect dst=new Rect();
 	private int headWidth;
-//	private Path mPath=new Path();
     private Bitmap mDstB=null;
     private PorterDuffXfermode xfermode=new PorterDuffXfermode(PorterDuff.Mode.MULTIPLY);
 	private Paint paint = new Paint();

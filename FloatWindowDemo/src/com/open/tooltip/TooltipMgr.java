@@ -33,7 +33,7 @@ import com.open.tooltip.anim.TransAnimShadow;
 
 /**
  * 管理布局
- * @author DexYang
+ * @author skyace
  *
  */
 public class TooltipMgr {

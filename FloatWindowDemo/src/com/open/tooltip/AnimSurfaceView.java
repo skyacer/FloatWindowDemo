@@ -15,7 +15,7 @@ import com.open.tooltip.anim.IAnimation;
 
 /**
  * 小球动画
- * @author DexYang
+ * @author skyace
  *
  */
 public class AnimSurfaceView extends SurfaceView {

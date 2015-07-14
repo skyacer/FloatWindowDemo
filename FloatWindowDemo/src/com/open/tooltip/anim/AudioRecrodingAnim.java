@@ -70,7 +70,6 @@ public class AudioRecrodingAnim implements IAnimation{
 
 	@Override
 	public void onAnimEnd() {
-		// TODO Auto-generated method stub
 		
 	}
 	
