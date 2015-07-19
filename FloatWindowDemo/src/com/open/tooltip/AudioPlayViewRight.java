@@ -12,7 +12,7 @@ import android.view.View;
 
 /**
  * 播放声音时
- * @author DexYang
+ * @author skyace
  *
  */
 public class AudioPlayViewRight extends View {

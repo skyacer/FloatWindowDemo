@@ -25,7 +25,7 @@ import com.open.tooltip.TooltipMgr.DrawMessage;
 
 /**
  * 
- * @author yanglonghui
+ * @author skyace
  *
  */
 public class HorImageListView extends View {

@@ -1,13 +1,13 @@
 package com.open.tooltip;
 
-import android.annotation.SuppressLint;
 import android.content.Context;
+import android.os.Build;
 import android.util.AttributeSet;
 import android.widget.LinearLayout;
 
 /**
  * 
- * @author Administrator
+ * @author skyace
  *
  */
 public class ExLinearLayout extends LinearLayout {
@@ -20,10 +20,6 @@ public class ExLinearLayout extends LinearLayout {
 		super(context, attrs);
 	}
 
-	@SuppressLint("NewApi")
-	public ExLinearLayout(Context context, AttributeSet attrs, int defStyle) {
-		super(context, attrs, defStyle);
-	}
 
 	@Override
 	protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {

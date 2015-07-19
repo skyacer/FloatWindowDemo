@@ -12,7 +12,7 @@ import android.view.View;
 
 /**
  * 麦克风的录音效果
- * @author DexYang
+ * @author skyace
  *
  */
 public class AudioRecordMicView extends View{

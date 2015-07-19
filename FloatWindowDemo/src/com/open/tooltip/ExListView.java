@@ -7,7 +7,7 @@ import android.widget.ListView;
 
 /**
  * 固定高度的ListView
- * @author Administrator
+ * @author skyace
  *
  */
 public class ExListView extends ListView {

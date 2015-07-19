@@ -5,7 +5,6 @@ import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -349,7 +348,6 @@ public class TooltipMgr {
          return null;
 	 } 
 	
-	@SuppressLint("DefaultLocale")
 	public Bitmap getCircleBitmap(int width,int height)
 	{
 		String url=String.format("image:width:%d_height:%d",width,height);

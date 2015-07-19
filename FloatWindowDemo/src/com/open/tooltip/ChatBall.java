@@ -10,7 +10,7 @@ import android.widget.ImageView;
 
 /**
  * 小球
- * @author DexYang
+ * @author skyace
  *
  */
 public class ChatBall extends ImageView{
